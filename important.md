@@ -249,6 +249,7 @@ readerStream.on('data', function(chunk) {
    data += chunk;
 });
 
+
 readerStream.on('end',function() {
    console.log(data);
 });
